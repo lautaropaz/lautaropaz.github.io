@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.body{
+    background-color: black;
+}
+
+.texto{
+    display: flex;
+    text-align: center;
+    background-color: green;
+    margin: 2%;
+    border-radius: 15px;
+}
+.volver{
+    display: inline;
+    padding: 7px;
+    border: 1px solid rgb(14, 53, 223);
+    border-radius: 15px;
+}
+
+h2 p{
+    background-color: rgba(214, 218, 221, 0.74)187, 202;
+}
+.volver{
+    margin-top: 10px;
+}
+
+.volver a{
+    text-decoration: none;
+}
+
+.multimedia div{
+    margin: 30px 0px;
+}
+
+
+
+/* diseño adaptado */
+@media (max-width:600px){
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+    video{
+        height:100%;
+        width:100%;
+    }
+  }

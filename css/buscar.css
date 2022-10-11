@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 600px;
+    margin: 0%;
+    text-align: center;
+    font-size: x-large;
+    display: grid;
+   place-items:center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    margin: 1%;
+}
+
+.volver{
+    display: inline;
+    padding: 7px;
+    border: 1px solid rgb(14, 53, 223);
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+
+}
+
+img{
+    width: 600px;
+}
+
+
+/* diseño adaptado */
+@media (max-width:600px){
+    .container{
+        display: grid;
+        place-items:center;
+        width:100%;
+        height: auto;
+    }
+    img{
+        width:100%;
+    }
+  }
